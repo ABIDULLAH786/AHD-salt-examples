@@ -58,7 +58,7 @@ def main(robotIP, PORT = 9559):
 
 if __name__ == "__main__":
 
-    IP = '127.0.0.1'
-    PORT = 49340
+    IP = '192.168.3.6'
+    PORT = 9559
 
     main(IP,PORT)
