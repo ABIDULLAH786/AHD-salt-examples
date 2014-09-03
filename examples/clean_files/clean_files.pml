@@ -5,7 +5,9 @@
         <BehaviorDescription name="behavior" src="behavior_1" xar="behavior.xar" />
     </BehaviorDescriptions>
     <Dialogs />
-    <Resources />
+    <Resources>
+        <File name="rotate_00" src="rotate_00.pmt" />
+    </Resources>
     <Topics />
     <IgnoredPaths />
 </Package>
