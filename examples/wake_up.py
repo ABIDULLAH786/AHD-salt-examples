@@ -6,7 +6,7 @@ import sys
 
 
 
-#will be address via shell file 
+#will be addressed via shell file 
 
 
 #IP = ['192.168.3.6','192.168.3.9','192.168.3.8']
@@ -18,6 +18,7 @@ port = 9559
 
 #proxy first!
 # motion_proxies = [ALProxy('ALMotion',ip,port)  for ip in IP]
+
 try:
 	motion_proxy = ALProxy('ALMotion',ip,port)
 except:

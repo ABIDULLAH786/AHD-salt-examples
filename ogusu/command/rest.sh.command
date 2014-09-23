@@ -1,5 +1,5 @@
 #!/bin/sh
-
+cd `dirname $0`
 source common.sh
 
 python ${SCRIPT_DIR}ledoff.py $HOST01 & \

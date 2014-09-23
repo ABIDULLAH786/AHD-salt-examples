@@ -1,5 +1,5 @@
 #!/bin/sh
-
+cd `dirname $0`
 source common.sh
 
 # host, moveX, moveY, rotate, delay
